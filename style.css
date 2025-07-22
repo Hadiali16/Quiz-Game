@@ -173,3 +173,17 @@ button:hover {
     align-items: center;
     margin-top: 2rem;
 }
+
+@media (max-width: 600px) {
+  .options button {
+    width: 100%;
+  }
+
+  .question-box {
+    width: 90%;
+  }
+
+  button, .next {
+    width: 80%;
+  }
+}
